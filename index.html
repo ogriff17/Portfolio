@@ -3,19 +3,19 @@
   <head>
     <!--This is the bootstrap section-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">   
     <title>About Me</title>
   </head>
   <body>
     <header id="masthead">
-      <div class="container">
+      <div id="containerTop">
         <div class="row">
           <div>
         <a href="index.html" id="logo">Oksana Miller</a>
+        
         <nav>
           <a href="index.htmnl">About</a>
           <a href="portfolio.html">Portfolio</a>
@@ -28,7 +28,7 @@
     <div id="main-container" class="container">
     <section class="main-container">
       <h1>About Me</h1>
-      <img src="pic for website.jpg" width="150" height="200">
+      <img src="me.jpeg" width="200" height="150">
 
           <p>Hi, my name is Oksana Miller. I am a graduate of Eastern University. I am fluent in both Russian and English. "</p>
           <p>I am an avid reader, martial artist, painter, soon-to-be-web-developer and a cat lover.
@@ -38,16 +38,17 @@
       </div>
 
     <footer id="navBar">
-      <div id="connectWithMe">
-        <h2>Connect with Me</h2>
-        <div><image src="github-logo.png" class="social" alt="Github" width="100" height="95"></image></div>
-          <div><image src="LinkedInlogo.png" class="social" alt="LinkedIn" width="100" height="100"></image></div>
-            <div><image src="Stacklogo.png" class="social" alt="Stack Overflow" width="100" height="100"></image></div>
-            </div>
+     <!--  <div id="connectWithMe"> -->
+        <!-- <h2 id="connectHere">Connect with Me</h2> -->
+       <div class="row" id="rowDiv">
+        <div id="column1"><image src="github-logo.png" alt="Github" width="100" height="95"></image></div>
+          <div id="column2"><image src="LinkedInlogo.png" alt="LinkedIn" width="100" height="100"></image></div>
+            <div id="column3"><image src="Stacklogo.png"  alt="Stack Overflow" width="100" height="100"></image></div>
+           <!--  </div> -->
             <br>
             <div class="container">
         &copy; Copyright 2020 Oksana Miller
-      </div>
+     </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

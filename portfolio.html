@@ -6,8 +6,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="portfolio.css"> <!--For some reason here the portfolio.css is not being recognized by my other 
-    html files and so it is not applying the styling to any of them. This is literally copy/paste from Bootstrap=portfolio so it should work--makes no sense.-->
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css"> 
     <title>About Me</title>
   </head>
   <body>
@@ -17,13 +16,13 @@
       <div class="container">
         <a href="index.html" id="logo">Oksana Miller</a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Oksana Miller</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"></a>
+         <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> -->
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link active" href="index.html">About<span class="sr-only"></span></a>
               <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
               <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
@@ -42,61 +41,53 @@
           </div>
           </div>
         </div>
-        <!--My columns and rows here. Not perfect either. -->
-                <div class="work">
-                <div class="row">
-                  <div class="col-md-3">  
-                <img src="ipadman.jfif"
-              class="auth-image" alt="hangman">
-                <h3>Hangman</h3>
-                </div>
-              </div>
-              </div>
-             
-              <div class="work">
-                  <div class="row">
-                    <div class="col-xs-6">
-                    <img src="wheel.jfif" width="200" height="200"
-                    class="auth-image" alt="RPG Game">
-                      <h3>RPG Game</h3>
-                      </div>
-                      </div>
-                    </div>
-                    
+      <!---Replaced columns and rows with cards-->
+        <div class="card" style="width: 10rem;">                                     
+          <img src="..." class="card-img-top" alt="Hangman Game">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
 
-                    <div class="work">
-                        <div class="row">
-                          <div class="col-xs-6">
-                        <img src="headphones.jfif"
-                        class="auth-image" alt="Trivia">
-                          <h3>Trivia Game</h3>
-                          </div>
-                          </div>
-                        </div>
-                      
-                        
-        
-                             <div class="work" 
-                            <div class="row">
-                              <div class="col-xs-6">
-                            <img src="Rutgersinfowidget.jfif"
-                            class="auth-image" alt="Rutgers Info Widget">
-                              <h3>Rutgers Info Widget</h3>
-                          </div>
-                        </div>
+        <div class="card" style="width: 10rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
 
-                         <div class="work"
-                            <div class="row">
-                              <div class="col-xs-6">
-                            <img src="ledtv.jpg"
-                            class="auth-image" alt="Rock Paper Scissors">
-                              <h3>Rock Paper Scissors</h3>
-                              </div>
-                              </div>
-                            </div>       
-                          </section>
+        <div class="card" style="width: 10rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
 
-                         <section class="sidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         <!-- <section class="sidebar">
                             <div id="connect">
                               <h2>Connect with Me</h2>
                                  <image src="github-logo.png" class="social" alt="Github" width="100" height="95">
@@ -110,7 +101,7 @@
                                         <div class="container">
                                          &copy; Copyright 2020 Oksana Miller
                                                 </div>
-                                                </footer>
+                                                </footer> -->
                                                 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
                                                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
                                                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
