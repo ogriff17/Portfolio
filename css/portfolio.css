@@ -93,13 +93,7 @@ h1, h2, h3, p { /*Can't figure out what this is for*/
     float:left;
     border:1px solid #ddd; 
 }
-/* .auth-image {
-    width:200px;
-    height:auto;
-    margin-top:10px;
-    float:left;
-    margin-right: 25px;
-} */
+
 
 .social {
    width: 62px;
@@ -108,9 +102,6 @@ h1, h2, h3, p { /*Can't figure out what this is for*/
    margin-right: 5px; 
 }
 
-/* .social:last-child {
-    margin-right:0px;
-} */
 
 #navBar{
     position:absolute;
@@ -135,6 +126,13 @@ h1, h2, h3, p { /*Can't figure out what this is for*/
     position:absolute;
     left:800px;
 } 
+
+#navBar{
+    background-color:red;
+    height:100px;
+    margin-top:1000px;
+
+
 
 
 
