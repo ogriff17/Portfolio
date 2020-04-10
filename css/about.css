@@ -100,13 +100,16 @@ body {
 } 
 
 #footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
     background-color:black;
-    border-color:purple;
-    border-style:solid;
-    margin-top:78px;
-    width:1590px;
+    color:silver;
     text-align:center;
-}
+    border-style:solid;
+    border-color:purple;
+    }  
 
 
 
