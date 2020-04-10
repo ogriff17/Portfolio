@@ -67,27 +67,6 @@ body {
      /*This is for the lines on the about/portfolio/contact*/
  }
 
-
-#column1{
-    position:absolute;
-    left:1300px; top:20px;
-    max-width:100%;
-    max-height:100%;
-    width:100%;
-    height:100%;
- 
-}
-
-#column2{
-    position: absolute;
-    left:1400px; top:20px;  
-}
-
- #column3{
-    position:absolute;
-    left:1500px; top:20px;  
-} 
-
 #footer{
     position:fixed;
     left:0;
@@ -100,24 +79,29 @@ body {
     border-color:purple;
     }  
 
-    #gitcat{
-        background-color:white;
-        border-style:solid;
-        border-color:purple;
-    }
-    
-    #linkedIn{
-        border-style:solid;
-        border-color:purple;
-    }
-    
-    #indeed{
-        border-style:solid;
-        border-color:purple; 
-    }
-    
 
+   #gitcatImage{
+       position:absolute;
+       margin-left:558px;
+       background-color:white;
+       border-style:solid;
+       border-color:purple;
 
+   }
+
+   #LinkedIn{
+    position:absolute;
+    margin-left:658px;
+    border-style:solid;
+    border-color:purple;
+   }
+
+   #IndeedSite{
+    position:absolute;
+    margin-left:755px;
+    border-style:solid;
+    border-color:purple;
+   }
 
 
 
