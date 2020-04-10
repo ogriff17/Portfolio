@@ -111,6 +111,22 @@ body {
     border-color:purple;
     }  
 
+    #gitcat{
+        background-color:white;
+        border-style:solid;
+        border-color:purple;
+    }
+    
+    #linkedIn{
+        border-style:solid;
+        border-color:purple;
+    }
+    
+    #indeed{
+        border-style:solid;
+        border-color:purple; 
+    }
+    
 
 
 

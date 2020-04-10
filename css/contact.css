@@ -165,7 +165,6 @@ margin-left:70px;
     background-color:silver;
     border-style:solid;
     border-color:rgb(90, 7, 34);
-
 }
 
 #textMsg{
@@ -191,29 +190,6 @@ margin-left:70px;
     border-style:solid;
     border-color:purple; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 label, 
@@ -243,6 +219,5 @@ input [type=submit] {
     color: #fff;
     font-size: 18px;
     padding:10px 30px;
-    cursor:pointer;
-    
+    cursor:pointer;   
 } 
