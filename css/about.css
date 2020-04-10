@@ -82,10 +82,11 @@ body {
 
    #gitcatImage{
        position:absolute;
-       margin-left:558px;
+       margin-left:615px;
        background-color:white;
        border-style:solid;
        border-color:purple;
+       margin-top:20px;
 
    }
 
@@ -94,13 +95,15 @@ body {
     margin-left:658px;
     border-style:solid;
     border-color:purple;
+    margin-top:20px;
    }
 
    #IndeedSite{
     position:absolute;
-    margin-left:755px;
+    margin-left:700px;
     border-style:solid;
     border-color:purple;
+    margin-top:20px;
    }
 
 
