@@ -27,21 +27,11 @@ body {
     padding-top:100px;
 }
 
-
-
 #connectHere{
     padding-bottom:80px;
     text-align:center;
-    background-color:yellow;
-   
+  
 }
-
-  h1,  { /* This is for the 'About Me' font*/
-    font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman', 
-    serif;
-    font-weight:700px;
-    color:rgb(121, 9, 121); 
-} 
 
  #masthead { /*This is for the nav bar at the top to make it appear*/
     background-color:black;
@@ -50,7 +40,6 @@ body {
     border-bottom: 2px solid purple; /*This is for the heading*/
     position:fixed;
     width:100%; 
-    background-color:black;
     padding-top:-20px;
  }
    
