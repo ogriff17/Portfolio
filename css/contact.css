@@ -27,13 +27,9 @@ body {
     padding-top:100px;
 }
 
-
-
 #connectHere{
     padding-bottom:80px;
-    text-align:center;
-    background-color:yellow;
-   
+    text-align:center; 
 }
 
   h1,  { /* This is for the 'About Me' font*/
@@ -108,11 +104,14 @@ body {
     text-align:center;
 }
 
-#connectWithMe{ /*This is not working all the way*/
-       color:purple;
+#connectWithMe{ 
+       color:rgb(139, 132, 132);
        text-align: center;
-       margin-left:58px;
-
+       margin-left:60px;
+       border-style:solid;
+       background-color:black;
+       margin-left:60px;
+       padding:20px;
 }
 
 #footer{
