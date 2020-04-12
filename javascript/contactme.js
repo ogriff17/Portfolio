@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.submit').click(function(event){
-        event.preventDefault();
+       /*  event.preventDefault(); */
         console.log("Hello there!");
     
         var name = $('.name').val();
@@ -16,16 +16,19 @@ $(document).ready(function(){
         if(email.length > 5 && email.includes('@') && email.includes('.')) {
          statusElm.append('<div>This email is working</div>')
 
-        } else { 
+        } else {
+             event.preventDefault()
            statusElm.append('<div>Email trouble</div>')
          }
-         if (message.length > 2) {
+         if (message.length >= 2) {
              statusElm.append('<div> Message is valid</div>')
          } else {
+           event.preventDefault()
             statusElm.append('<div> Message is not valid</div>') 
-         }
+         }      
 
          if (name.length > 20 || name.length < 10) {
+            event.preventDefault()
             statusElm.append('<div>Name is invalid</div>')
          } 
     })
