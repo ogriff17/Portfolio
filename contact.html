@@ -3,7 +3,6 @@
   <head>
     <!---This is the bootstrap section-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/contact.css">
     <title>Contact</title>
@@ -18,10 +17,16 @@
           <a href="index.html">About</a>
           <a href="portfolio.html">Portfolio</a>
           <a href="contact.html">Contact</a>
-          <a href="...">Resume</a>
-          <div id="column1"><image src="./images/githubcat.png" alt="Github" id="gitcat" width="60" height="40"></image></div>
-          <div id="column2"><image src="./images/linkedIn-logo.png" alt="LinkedIn" id="linkedIn" width="60" height="40"></image></div>
-          <div id="column3"><image src="./images/indeed.png"  alt="Indeed" id="indeed" width="60" height="40"></image></div> 
+          <a href="https://my.indeed.com/p/oksanam-jri2xb7">Resume</a>
+          <a href="https://github.com/ogriff17">
+            <image src="./images/githubcat.png" alt="Github" id="gitcatImage" width="60" height="40"></image>
+          </a>
+          <a href="https://www.linkedin.com/feed/">
+            <image src="./images/linkedIn-logo.png" alt="LinkedIn" id="LinkedIn" width="60" height="40"></image>
+            </a>
+            <a href="https://my.indeed.com/p/oksanam-jri2xb7">
+              <image src="./images/indeed.png" alt="Indeed" id="IndeedSite" width="60" height="40"></image> 
+
         </nav>
         </div>
       </div>
@@ -42,24 +47,27 @@
            <ul>
                 <ol>
                     <label for="name" id="nameId">Name</label>
-                    <input type="text" name="name" id="textName" 
+                    <input type="text" name="name" id="textName" class="name"
                     placeholder="John Smith"
                     required="required">
                 </ol>
                 <ol>
                     <label for="email" id="emailId">Email</label>
-                    <input type="text" name="email" id="textEmail" 
+                    <input type="text" name="email" id="textEmail" class="email"
                     placeholder="example@gmail.com"
                     required="required">
                 </ol>
                 <ol>
                     <label for="message" id="messageId">Message</label>
-                    <textarea id="textMsg" name="message" 
+                    <textarea id="textMsg" name="message" class="message" 
                     required="required">
                 </textarea>
               </ol>
            </ul>
-           <input type="submit" name="submit" id="submit">
+           <div class="status">
+
+           </div>
+           <input type="submit" name="submit" id="submit" class="submit">
          </form>
     </section>
   </div>
@@ -69,7 +77,8 @@
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="javascript/contactme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
