@@ -133,7 +133,7 @@ font-size:15px;
 color:black;
 border-style:solid;
 border-color:rgb(90, 7, 34);
-margin-left:70px;
+margin-left:100px;
 }
 
 #nameId{
@@ -172,6 +172,8 @@ margin-left:70px;
     border-style:solid;
     border-width: medium;
     border-color:rgb(90, 7, 34);
+    margin-right:200px;
+    padding-right:100px;
 }
 
 
@@ -190,6 +192,12 @@ margin-left:70px;
     border-style:solid;
     border-color:purple; 
 }
+
+#fs-frm-inputs{
+    margin-left:60px;
+}
+
+
 
 
 label, 
