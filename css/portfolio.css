@@ -109,7 +109,7 @@ footer{
     }
 
     .card{
-        float: left;
+        float:left;
         width: 25%;
         padding: 0 10px; 
         margin-left:90px;
@@ -146,32 +146,17 @@ footer{
         font-size: 30px;
         text-decoration:none;
     }
+
+    #link{
+        color:silver;
+        border-style:solid;
+        background-color:black;
+        margin-left:90px;
+        font-size: 30px;
+        text-decoration:none;
+        margin-bottom:2000px;
+    }
          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 980px) {  
     .main-section {   
          width: 60%; float: left; margin-top: 40px; margin-left: 40px;position: relative; 

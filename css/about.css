@@ -23,6 +23,12 @@ body {
     text-align:center
 }
 
+#myPic{
+    border-style: solid;
+    border-color:purple;
+    border-width:8px;
+}
+
 #main-container{
     padding-top:100px;
 }
