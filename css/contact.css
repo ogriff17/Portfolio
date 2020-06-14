@@ -42,6 +42,8 @@ body {
     width:100%; 
     background-color:black;
     padding-top:-20px;
+    position:fixed;
+    top:0;
  }
    
  #logo { /*This section is for the name to appear correctly*/
