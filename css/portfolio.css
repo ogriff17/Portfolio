@@ -11,9 +11,9 @@ body {
 }
 
 .container { /*This section is to contain everything in the middle of the page*/
-    width:100%;
-    max-width: 960px;
-    margin: 0 auto;
+    width:50%;
+    max-width: 800px;
+    /* margin: 0 auto; */
     clear:both;
     box-sizing: border-box;
     border-style:none;
@@ -28,6 +28,8 @@ body {
     position:fixed;
     width:100%; 
     padding-top:-40px;
+    position:fixed;
+    top:0;
  }
 
 #logo { /*This section is for the name to appear correctly*/
@@ -111,19 +113,22 @@ footer{
     .card{
         float:left;
         width: 25%;
-        padding: 0 10px; 
-        margin-left:90px;
-        margin-top:230px;
+        padding-top:20px; 
+        margin-left:65px;
+        margin-top:100px;
     }
 
     .card-title{
         font-size:25px;
         border-style:solid;
-        border-color:black;
+        border-color:silver;
         background-color:black;
+        background-size:100px 100px;
         color:silver;
         text-align:center;
         margin-top:-10px;
+
+        border-width:-70px;
     }
 
     .card-img{
@@ -156,6 +161,8 @@ footer{
         text-decoration:none;
         margin-bottom:2000px;
     }
+
+
          
 @media screen and (max-width: 980px) {  
     .main-section {   
